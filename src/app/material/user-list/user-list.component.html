@@ -1,0 +1,11 @@
+<div class="my-list">
+    <mat-selection-list #total>
+       <mat-list-option *ngFor="let student of students$ |async" [ngClass]="student.css"
+             [selected]="isChecked(student)" (click)="doStuff(student)">
+             <mat-icon mat-list-icon>{{student.icon}}</mat-icon>{{student.id}}、 {{student.name}}
+       </mat-list-option>
+    </mat-selection-list>
+    <p>
+       选取项个数: {{total.selectedOptions.selected.length}}
+    </p>
+ </div>

@@ -1,0 +1,8 @@
+.example-icon {
+    padding: 0 14px;
+}
+
+/* 工具栏图标靠右的样式 */
+.example-spacer {
+    flex: 1 1 auto;
+}

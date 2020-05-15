@@ -1,0 +1,10 @@
+<mat-toolbar color="accent">
+    <mat-toolbar-row>
+        <span>点名</span>
+        <span class="example-spacer"></span>
+        <mat-icon class="example-icon" aria-hidden="false" aria-label="list" (click)="changeIcon(view_list)">
+            {{view_list?"view_module":"view_list"}}</mat-icon>
+        <mat-icon class="example-icon" aria-hidden="false" aria-label="退出">logout</mat-icon>
+    </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>

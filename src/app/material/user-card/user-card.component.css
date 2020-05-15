@@ -1,0 +1,27 @@
+.flex-me {
+    margin-top: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ /* 鼠标悬停在card上的样式 */
+ mat-card:hover  {
+    cursor: pointer;
+    background: green;
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+ }
+ 
+ .mat-card-header {
+    justify-content: center;
+ }
+ 
+ .my-selected1{
+    color: gainsboro;
+ }
+ 
+ .my-selected2 {
+ color: white;
+ background: green;
+ }

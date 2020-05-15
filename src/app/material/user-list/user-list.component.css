@@ -1,0 +1,16 @@
+.my-list {
+    min-height: 200px;
+    margin: auto;
+    margin-top: 1em;
+    width: 35%;
+    border: 1px solid green;
+    padding: 10px;
+ }
+ 
+ .my-selected1{
+    color: gainsboro;
+ }
+ 
+ .my-selected2 {
+    color: green;
+ }

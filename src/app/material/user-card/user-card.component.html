@@ -1,0 +1,11 @@
+<div class="flex-me">
+    <mat-card *ngFor="let student of students" (click)="doStuff(student)" [ngClass]="student.css">
+        <mat-card-header>
+            <div mat-card-avatar>
+                <mat-icon>{{student.icon}}</mat-icon>
+            </div>
+            <mat-card-title>{{student.id}}</mat-card-title>
+            <mat-card-subtitle>{{student.name}}</mat-card-subtitle>
+        </mat-card-header>
+    </mat-card>
+</div>
